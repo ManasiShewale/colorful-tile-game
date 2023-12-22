@@ -9,7 +9,6 @@ const port = 3001;
 
 app.use(cors());
 app.use(bodyParser.json());
-app.use(express.static(path.join(__dirname, "build")));
 
 // Generate a random grid with red and blue tiles
 function generateGrid() {
